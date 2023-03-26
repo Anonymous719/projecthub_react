@@ -1,0 +1,20 @@
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #afafaf;
+}
+
+#startlogo {
+    padding-left: 15px;
+}
+
+#endlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#endlinks p {
+    padding-right: 35px;
+}
