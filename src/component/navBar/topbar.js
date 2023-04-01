@@ -4,9 +4,9 @@ import './topbar.css';
 class Topbar extends React.Component {
     render(){
         return(
-            <div id = 'topbar'>
-                <h1 id = 'startlogo'>Project Hub</h1>
-                <div id = 'endlinks'>
+            <div class = 'topbar'>
+                <h1>Project Hub</h1>
+                <div class = 'endbutton'>
                     <p>Home</p>
                     <p>Home</p>
                 </div>

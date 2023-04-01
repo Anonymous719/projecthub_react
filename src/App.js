@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {Topbar} from'./topbar.js';
+import { Dashboard } from './pages/dashboard/dashboard.js';
 
 
 function App() {
   return (
-    <Topbar />
+    <Dashboard />
   );
 }
 

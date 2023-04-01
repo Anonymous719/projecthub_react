@@ -1,20 +1,22 @@
-#topbar {
+.topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #afafaf;
 }
 
-#startlogo {
-    padding-left: 15px;
+.topbar h1{
+    padding: 15px;
+    background-color: #afafaf;
 }
 
-#endlinks {
+.endbutton{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#endlinks p {
+.endbutton p{
     padding-right: 35px;
+    background-color: #afafaf;
 }
