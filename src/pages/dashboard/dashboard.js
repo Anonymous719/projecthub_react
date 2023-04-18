@@ -6,21 +6,13 @@ import { Cards } from '../../component/dashboardCards/cards.js';
 class Dashboard extends React.Component {
     render() {
         return (
-            <div>
+            <div class = "dashboard">
                 <Topbar />
-                <div class = 'greetings'>
-                    <p>Welcome, Username</p>
-                    <div>
-                        <p>Ongoing</p>
-                        <p>Completed</p>
-                    </div>
-                </div>
-                <hr />
                 <div class='dashboardBlocks'>
-                    <Cards />
-                    <Cards />
-                    <Cards />
-                    <Cards />
+                    {Cards("Progress")}
+                    {Cards("ToDo")}
+                    {Cards("Resources")}
+                    {Cards("Discussion")}
                 </div>
             </div>
         );
