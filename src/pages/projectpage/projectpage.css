@@ -1,0 +1,8 @@
+.dashboard{
+    background-color: #bef0ff;
+}
+
+.dashboardBlocks{
+    display: flex;
+    flex-wrap: wrap;
+}
