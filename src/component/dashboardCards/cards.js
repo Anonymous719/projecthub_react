@@ -1,7 +1,6 @@
 import React from "react";
 import "./cards.css";
 
-
 function Cards(type){
     if(type === "Progress"){
         return (
@@ -79,7 +78,7 @@ function Cards(type){
                 <h1>{type}</h1>
                 <hr />
                 <div class='discussion_message'>
-                    
+
                 </div>
             </div>
     
@@ -88,9 +87,7 @@ function Cards(type){
         return (
             <div></div>
         )
-    }
-    
-    
+    } 
 }
 
 export {Cards};
