@@ -4,10 +4,13 @@ import { Dashboard } from './pages/dashboard/dashboard.js';
 import { Projectpage } from './pages/projectpage/projectpage';
 import { Resourcespage } from './pages/resourcespage/resourcespage';
 import { Chatpage } from './pages/chatpage/chatpage';
+import ProfilePage from './pages/profilepage/profilepage';
 
 function App() {
   return (
-    <Chatpage />
+    <div>
+      <ProfilePage />
+    </div>
   );
 }
 
